@@ -1,0 +1,453 @@
+html
+{
+    font-family: Roboto;
+}
+
+
+/* Navbar Styling */
+nav
+{
+    font-weight: bold;
+}
+.navbar-brand
+{
+    font-size: 35px;
+}
+.LinkBox a
+{
+    margin-right:15px;
+    color: black;
+}
+
+.logo 
+{
+    font-size: 30px;
+}
+
+/* Below navbar section styling */
+.module-border-wrap 
+{
+    min-height: 350px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, #706897, purple , #cc0e74);
+    border-radius: 20px;
+    padding: 3px;
+}
+.module 
+{
+    position: relative;
+    width: 92%;
+    height: 321px;
+    background-color: white;
+    left :20px;
+    top:10px
+}
+.FirstSection .module
+{
+    position: relative;
+}
+.FirstSection h1
+{
+    font-size: 50px;
+    font-weight: 800;           
+}
+.FirstSection span
+{
+    color :#1f3c88;
+}
+.third
+{
+    position : relative;
+    left :20px;
+    top :3px;
+    width:40px;
+    height:60px;
+    background-color:#1f3c88;
+    clip-path: polygon(0 0, 0% 100%, 76% 50%);
+}
+.second
+{
+    position : relative;
+    top :40%;
+    box-shadow: 3px 3px 20px red;
+    width:60px;
+    height :70px;
+    border-radius :50%;
+}
+.FirstSection button i  
+{
+    margin-right : 7px;
+}
+
+.FirstSection button
+{
+    font-size: 17px;
+    border-radius:10px;
+}
+/* Third Row  */
+.sect
+{
+    margin:5% auto 10% auto;
+}
+.sect .curve
+{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 7px;
+}
+
+/* Fourth .row */
+
+.thirdsection .earth
+{
+    width:150px;
+    height: 100px;;
+}
+
+.third-section-heading 
+{
+    font-weight: 800;
+}
+.third-section-heading span
+{
+    color :#1f3c88;
+}
+
+/* Fifth .row */
+.FourthSection
+{
+    margin:5% auto 0 auto;
+    text-align :center;
+    font-size: 21px;
+    font-weight:500;
+}
+.FourthSection .row img
+{
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px grey;
+    width: 175px;
+}
+.FourthSection p 
+{
+    margin-bottom: 0;
+}
+.FourthSection h3
+{
+    font-weight: 700;
+    color:blue;
+}
+.FourthSection .row div
+{
+    margin-bottom: 50px;
+}
+.FourthSection button
+{
+    border-radius: 10px;
+}
+
+/* Live Classes Styling  */
+.FifthSection
+{
+    margin:4% auto 2% auto;
+}
+
+.FifthSection h1
+{
+    text-align: center;
+    font-weight: 800;
+}
+.FifthSection h1 span
+{
+    color :blue;
+}
+.FifthSection p {
+    font-size: 22px;
+}
+.FifthSection h3 
+{
+    font-weight: bolder;
+}
+.FifthSection button
+{
+    border-radius: 10px;
+}
+
+.liveDown
+{
+    font-size:30px ; font-weight:800; color:blue;
+}
+
+.Neetlabel h2
+{
+    font-weight: 800;
+    font-size: 50px;
+    margin-top :40px;
+    margin-bottom: 40px;
+}
+.Neetlabel h2 span
+{
+    color:blue;
+}
+
+.SixthSection h2
+{
+    font-weight: 700;
+}
+.SixthSection p
+{
+    font-size: 23px;
+}
+.SixthSection i
+{
+    color:black;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.JEElabel
+{
+    text-align :center;
+    margin-top :100px;
+    color: #555555;
+    margin-bottom: 2%;
+}
+.JEElabel h1 
+{
+    font-weight: 800;
+}
+
+.JEElabel span
+{
+    color : blue;
+}
+
+.seventhSection 
+{
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+.seventhSection img
+{
+    width :110px;
+    height: 100px;
+}
+.seventhSection p 
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+}
+.seventhSection h1
+{
+    font-weight: 800;
+    color: blue;
+    padding:50px 0 10px 0 ;
+    font-size: 45px;
+}
+
+.expert-tutor
+{
+    text-align: center;
+}
+.expert-tutor h2 
+{
+    font-weight: 800; 
+    color: #555555;
+    font-size: 45px;
+}
+
+.seventhSection .vies::after
+{
+    content: "view all";
+    position: absolute;
+    right: 5px;
+    bottom:0px;
+    color:red;
+    cursor: pointer;
+}
+
+.ourStudent h2
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.eight-section
+{
+    font-size: 15px;
+}
+.eight-section p 
+{
+    margin-bottom: 0;
+    font-size: 11px;
+}
+.eight-section img
+{
+    border-radius: 50%;
+}
+.eight-section .girl-dummyText
+{
+    margin-bottom: 0;
+}
+.eight-section .girl-photo-section
+{
+    padding:0;
+}
+.eight-section h3
+{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+/* Media Queries */
+
+@media (max-width:991px)
+{
+    .liveClassRow
+    {
+        margin-top : 25px;
+    }
+    .liveDown
+    {
+        margin-bottom: 10px;
+    }
+    .seventhSection h1 
+    {
+        padding-top :30px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width:705px)
+{
+    .navbar-brand
+    {
+        font-size: 27px;
+    }
+    .navbar-brand img 
+    {
+        width: 30px;
+        height: 30px;
+    }
+    .FirstSection h1
+    {
+        font-size: 30px;
+    }
+    .module-border-wrap 
+    {
+        min-height: 300px;
+    }
+    .module 
+    {
+        width: 92%;
+        height: 251px;
+        left :20px;
+        top:18px
+    }
+    .thirdsection h1 
+    {
+        font-size: 30px;
+    }
+    .thirdsection h2 
+    {
+        font-size: 1.5rem;
+    }
+    .thirdsection p 
+    {
+        font-size: 15px;
+    }
+    .thirdsection .earth
+    {
+        height: 70px;
+    }
+    .FourthSection .row div
+    {
+        margin-bottom :30px;
+    }
+    .FourthSection .row img 
+    {
+        width: 127px;
+    }
+    .FourthSection 
+    {
+        font-size:16px ;
+    }
+    .FifthSection h1 
+    {
+        font-size : 30px;
+    }
+    .FifthSection h3
+    {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom:0;
+    }
+    .FifthSection p 
+    {
+        font-size: 16px;
+    }
+    .FifthSection .interactive-session
+    {
+        margin-bottom: 0;
+    }
+    .FifthSection .liveDown
+    {
+        font-size: 25px;
+    }
+    .FifthSection button
+    {
+        padding:3px 5px 3px 5px;
+    }
+    .JEElabel
+    {
+        margin-top: 40px;
+    }
+    .JEElabel h1
+    {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .SixthSection p 
+    {
+        font-size: 17px;
+        padding-left:0;
+    }
+    .SixthSection h2 
+    {
+        font-size: 25px;
+    }
+    .seventhSection h1 
+    {
+        font-size: 33px;
+        font-weight: 700;
+        padding-bottom: 0;
+    }
+    .expert-tutor h2 
+    {
+        font-size: 30px;
+    }
+    .ourStudent h2
+    {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .Neetlabel h2 
+    {
+        font-size: 37px;
+        margin-bottom: 0;
+    }
+    .liveClassRow .row .col
+    {
+        padding-left:0;
+        padding-right: 0;
+    }
+    .liveClassRow h3,p
+    {
+        padding-left: 10px;
+    }
+}
